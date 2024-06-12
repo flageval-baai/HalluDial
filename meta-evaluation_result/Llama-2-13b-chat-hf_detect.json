@@ -1,0 +1,11 @@
+[
+    {
+        "dialogue_id": 3124,
+        "knowledge": "The core trio of Lennon, McCartney and Harrison went through a succession of drummers, including Pete Best, before asking Starr to join them in 1962.",
+        "dialogue_history": "[Human]: I love to listen to the Beatles. They are one of my favorite bands. [Assistant]: Do you like any other rock bands? The Beatles were formed in 1960 [Human]: I do. I like Yellow Submarine and Hey Jude a lot. It is amazing, especially since Paul McCartney is still performing! [Assistant]: What do you think of their fist hit, \"Love Me Do\"? [Human]: I really like it as well. My mother was one of their biggest fans back then. The Beatles can be considered one of the first boy bands!",
+        "turn": 2,
+        "response": "Speaking of The Beatles, did you know that Ringo Starr was their first and only drummer?",
+        "target": "Yes. The hallucinated response incorrectly states that \"Ringo Starr was their first and only drummer\". According to the provided knowledge, the Beatles actually had a succession of drummers, including Pete Best, before Starr joined them in 1962.",
+        "judgement": "Yes"
+    }
+]
