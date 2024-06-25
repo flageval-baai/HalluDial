@@ -4,7 +4,7 @@
     <a href="https://arxiv.org/abs/2406.07070">
             <img alt="Build" src="http://img.shields.io/badge/cs.CV-arXiv%3A2406.07070-B31B1B.svg">
     </a>
-    <a href="[https://huggingface.co/datasets/MLVU/MVLU](https://drive.google.com/drive/folders/19POyHTlLc3iQKKR4oonZzIGLEQ94Wyjl)">
+    <a href="https://drive.google.com/drive/folders/19POyHTlLc3iQKKR4oonZzIGLEQ94Wyjl?usp=sharing">
         <img alt="Build" src="https://img.shields.io/badge/ Dataset-HalluDial Benchmark-yellow">
     </a>
 </p>
