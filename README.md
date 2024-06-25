@@ -1,4 +1,3 @@
-# HalluDial
 <h1 align="center">HalluDial: A Large-Scale Benchmark for Automatic Dialogue-Level Hallucination Evaluation</h1>
 <p align="center">
     <a href="https://arxiv.org/abs/2406.07070">
@@ -9,8 +8,7 @@
     </a>
 </p>
 
-This repo contains A Large-Scale Benchmark for Automatic Dialogue-Level Hallucination Evaluation code for the paper "[HalluDial: A Large-Scale Benchmark for Automatic Dialogue-Level Hallucination Evaluation](https://arxiv.org/abs/2406.07070))".
-
+This repository contains the data and code for the paper "[HalluDial: A Large-Scale Benchmark for Automatic Dialogue-Level Hallucination Evaluation](https://arxiv.org/abs/2406.07070)."
 
 ![HalluDial](img/data_sample.png)
 
