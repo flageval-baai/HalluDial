@@ -141,12 +141,11 @@ sh example/eval_rationale.sh
 If you use the HalluDial dataset in your work, please consider citing our paper:
 
 ```
-@misc{luo2024halludial,
-      title={HalluDial: A Large-Scale Benchmark for Automatic Dialogue-Level Hallucination Evaluation}, 
-      author={Wen Luo and Tianshu Shen and Wei Li and Guangyue Peng and Richeng Xuan and Houfeng Wang and Xi Yang},
-      year={2024},
-      eprint={2406.07070},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{luo2024halludial,
+  title={HalluDial: A Large-Scale Benchmark for Automatic Dialogue-Level Hallucination Evaluation},
+  author={Luo, Wen and Shen, Tianshu and Li, Wei and Peng, Guangyue and Xuan, Richeng and Wang, Houfeng and Yang, Xi},
+  journal={arXiv e-prints},
+  pages={arXiv--2406},
+  year={2024}
 }
 ```
