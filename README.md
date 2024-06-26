@@ -4,7 +4,10 @@
             <img alt="Build" src="http://img.shields.io/badge/cs.CV-arXiv%3A2406.07070-B31B1B.svg">
     </a>
     <a href="https://drive.google.com/drive/folders/19POyHTlLc3iQKKR4oonZzIGLEQ94Wyjl?usp=sharing">
-        <img alt="Build" src="https://img.shields.io/badge/ Dataset-HalluDial Benchmark-yellow">
+        <img alt="Build" src="https://img.shields.io/badge/ Google Drive-HalluDial Benchmark-blue">
+    </a>
+    <a href="https://huggingface.co/datasets/FlagEval/HalluDial">
+        <img alt="Build" src="https://img.shields.io/badge/ HuggingFace-HalluDial Benchmark-yellow">
     </a>
 </p>
 
@@ -96,6 +99,7 @@ where
 The data can be loaded the same way as any other JSON file. For example, in Python:
 
 ```python
+import json
 
 spontaneous_dataset = {
     "train": json.load(open("data/spontaneous/spontaneous_train.json")),
@@ -106,6 +110,16 @@ induced_dataset = {
     "train": json.load(open("data/induced/induced_train.json")),
     "test": json.load(open("data/induced/induced_test.json"))
 }
+```
+
+However, it can be easier to work with the dataset using the [HuggingFace Datasets](https://huggingface.co/datasets) library:
+
+```python
+# pip install datasets
+from datasets import load_dataset
+
+spontaneous_dataset = load_dataset("FlagEval/HalluDial", "spontaneous")
+induced_dataset = load_dataset("FlagEval/HalluDial", "induced")
 ```
 
 ### Evaluating
