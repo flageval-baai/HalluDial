@@ -6,6 +6,5 @@
         "turn": 2,
         "response": "Speaking of The Beatles, did you know that Ringo Starr was their first and only drummer?",
         "target": "Yes. The hallucinated response incorrectly states that \"Ringo Starr was their first and only drummer\". According to the provided knowledge, the Beatles actually had a succession of drummers, including Pete Best, before Starr joined them in 1962.",
-        "judgement": "Yes"
     }
 ]
